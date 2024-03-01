@@ -89,14 +89,23 @@ h4{
  nav a:hover{
   text-decoration: underline 3px !important;
 }
-
+table, tr  {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+  margin-top: 60px;
+  padding: 50px;
+}
 .container {display:flex; }
 .welcome {  float:left; width:100%; font-size:large; margin-top:50px!important;}
 
 .why {margin:20px auto}
 .why h5 { text-transform:uppercase}
 .why2 h5 { text-transform:capitalize}
-.why.col-md-4 { }
+.why.col-md-4 { 
+  
+}
 .why-inner {box-shadow: rgba(247, 244, 244, 0.933) 0px 5px 15px; padding:20px; float:left; width:100%;
 padding:20px;margin-bottom:40px;}
 
@@ -131,4 +140,7 @@ padding:20px;margin-bottom:40px;}
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
+}
+.checked {
+  color: orange;
 }
